@@ -5,7 +5,7 @@ import telran.view.*;
 import java.util.*;
 public class BullsCowsClientAppl {
 
-	private static final int PORT = 5000;
+	private static final int PORT = 5003;
 
 	public static void main(String[] args) {
 		TcpClient tcpClient = new TcpClient("localhost", PORT);
